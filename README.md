@@ -1,2 +1,2 @@
-# Word-Guess-Game
-Hangman type came created with javascript
+# Psychic-Game
+A game where you have to guess the letter!
