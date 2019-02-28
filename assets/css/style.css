@@ -1,0 +1,14 @@
+body {
+	background-color: red;
+}
+
+p {
+    font-size: 25px;
+}
+
+.wrapper {
+	color: white;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 25px;
+}
