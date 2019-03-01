@@ -13,7 +13,8 @@ var computerChoice = letters[Math.floor(Math.random() * letters.length)];
 console.log(computerChoice);
 
 // onkeypress function that uses user key input to play the game
-document.onkeypress = function(event) {
+document.onkeypress = function (event) {
+    
     var userGuess = event.key.toLowerCase();
 
     if(userGuess === computerChoice){
@@ -27,6 +28,7 @@ document.onkeypress = function(event) {
     // guessedLetters gets filled up by userGuess's being pushed into the empty array
     } else{
         attempts--;
+    
         guessedLetters.push(userGuess.toLowerCase());
     }
 
